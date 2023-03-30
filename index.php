@@ -17,10 +17,10 @@ class Movie{
     //definire almeno un metodo
 }
 
-$film1 = new Movie("Ritorno al futuro","grande giove"){
-    $this->vote = 5;
-    $this->language = "eng";
-};
+$film1 = new Movie("Ritorno al futuro","grande giove");
+$film1->vote = 5;
+$film1->language ="eng";
+
 var_dump($film1);
 ?>
 
