@@ -1,3 +1,11 @@
+<?php
+//definiamo una classe movie
+//all’interno della classe sono dichiarate delle variabili d’istanza
+//all’interno della classe è definito un costruttore
+//all’interno della classe è definito almeno un metodo
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
