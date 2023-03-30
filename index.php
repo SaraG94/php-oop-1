@@ -8,10 +8,20 @@ class Movie{
     public $subtitle;
     public $vote;
     public $language;
-    
+
     //definire un costruttore
+    function __construct($titleFilm,$subtitleFilm){
+        $this->title = $titleFilm;
+        $this->subtitle = $subtitleFilm;
+    }
     //definire almeno un metodo
 }
+
+$film1 = new Movie("Ritorno al futuro","grande giove"){
+    $this->vote = 5;
+    $this->language = "eng";
+};
+var_dump($film1);
 ?>
 
 
