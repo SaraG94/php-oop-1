@@ -3,9 +3,14 @@
 //definiamo una classe movie
 class Movie{
 
-//dichiarare delle variabili d’istanza
-//definire un costruttore
-//definire almeno un metodo
+    //dichiarare delle variabili d’istanza
+    public $title;
+    public $subtitle;
+    public $vote;
+    public $language;
+    
+    //definire un costruttore
+    //definire almeno un metodo
 }
 ?>
 
