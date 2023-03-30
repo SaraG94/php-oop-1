@@ -1,8 +1,12 @@
 <?php
+
 //definiamo una classe movie
-//all’interno della classe sono dichiarate delle variabili d’istanza
-//all’interno della classe è definito un costruttore
-//all’interno della classe è definito almeno un metodo
+class Movie{
+
+//dichiarare delle variabili d’istanza
+//definire un costruttore
+//definire almeno un metodo
+}
 ?>
 
 
