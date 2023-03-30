@@ -18,10 +18,14 @@ class Movie{
 }
 
 $film1 = new Movie("Ritorno al futuro","grande giove");
-$film1->vote = 5;
+$film1->vote = 4.5;
 $film1->language ="eng";
 
-var_dump($film1);
+$film2 = new Movie("Il signore degli anelli","la compagnia dell'anello");
+$film2->vote = 5;
+$film2->language ="eng";
+
+var_dump($film1,$film2);
 ?>
 
 
